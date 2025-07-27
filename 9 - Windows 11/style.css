@@ -6,6 +6,15 @@ body{
     overflow: hidden;
     height: 100vh;
 }
+nav {
+    background-color: black;
+    color: white;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
 .taskbar{
     background-color: #f3f3f3;
     width: 100%;
