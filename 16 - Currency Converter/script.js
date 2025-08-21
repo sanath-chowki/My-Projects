@@ -2,7 +2,8 @@ console.log("script.js is working...")
 const btn = document.querySelector(".btn")
 const populate = async (value, currency) => {
     let myStr=""
-    url = "https://api.currencyapi.com/v3/latest?apikey=cur_live_Gni3dXjaDKMLfJS9n5BCsYbt5vPHcrtRcUbeSnwl&base_currency="+currency
+    // link in private.js
+    url = link+currency
     let response = await fetch(url)
     let rJson = await response.json()
     document.querySelector(".output").style.display = "block"
